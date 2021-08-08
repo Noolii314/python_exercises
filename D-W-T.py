@@ -25,3 +25,9 @@ elif x==y or y==z or x==z:
 else:
     print('treken)
 
+#Write a Python program to display the examination schedule. (extract the date from exam_st_date).
+#I
+date = (11,12,2014)
+print("%i/%i/%i"%date)
+#II
+print(f"{date[0]}/{date[1]}/{date[2]}")
