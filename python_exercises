@@ -11,4 +11,10 @@ if d>=0:
 elif d<0:
     print("The equation has complex solution")
 
-
+#Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn.
+def n_con():
+    n = int(input('n='))
+    a = str(n) + str(n)
+    b = str(n) + str(n) + str(n)
+    print(n + int(a) + int(b))
+n_con()
