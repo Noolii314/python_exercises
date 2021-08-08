@@ -1,3 +1,4 @@
+#quadratic formula in python
 from math import *
 a=int(input('a='))
 b=int(input('b='))
