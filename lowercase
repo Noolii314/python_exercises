@@ -1,0 +1,21 @@
+a='qwertyuiopasdfghjklzxcvbnm'
+lower=[]
+uper=[]
+for i in a:
+    lower.append(ord(i))
+    uper.append(ord(i.upper()))
+print(f'[{max(lower)}-{min(lower)}] and',f'[{max(uper)}-{min(uper)}]')
+
+#Write a Python program to check whether lowercase letters exist in a string.
+x=input('str:')
+def lower(x):
+    a=[]
+    for char in x:
+        if(ord(char)>=97 and ord(char)<=122):
+            a.append(char)
+    if len(a)>0:
+        return True
+    else:
+        return False
+print(lower(x))
+
